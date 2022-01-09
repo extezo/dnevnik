@@ -4,10 +4,11 @@
 <?import javafx.scene.layout.VBox?>
 
 
+<?import com.rbpo.dnevnik.Dnevnik?>
 <VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
       <TabPane prefHeight="700.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE">
         <Tab text="Дневник">
-          <fx:include fx:id="dnevnik" source="dnevnik.fxml"/>
+          <Dnevnik />
         </Tab>
         <Tab text="Журнал">
           <fx:include fx:id="journal" source="journal.fxml"/>
